@@ -1,0 +1,5 @@
+<div class="search">
+  <%= select_tag "Select Categories", options_for_select(Intern.column_names.reject{|a| a =~/^id$|updated_at|created_at/i}.map{|i| i.titleize}),:prompt => "Select Option", class: "category"  %>
+  <%= text_field_tag 'query', '', placeholder: '' %>
+  <%= link_to 'Remove', "#", id: 'RemoveButton', class: "btn"      %>   <br>
+</div>

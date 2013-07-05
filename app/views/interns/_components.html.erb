@@ -1,0 +1,9 @@
+<%= form_tag('/interns/search', id: "form_search") do %>
+  <div id="my_searches">
+    <%= render partial: "search" %>
+  </div>
+  <%= link_to 'Add',"#", id: 'add_button', name: "AddButton", class: "btn"%>
+  <div><%= submit_tag 'Search' %></div>
+<% end %>
+
+

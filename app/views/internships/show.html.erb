@@ -1,0 +1,8 @@
+ul id='internships'>
+<% @intern.internships.each do |internship| %>
+  <li>
+    #<%= internship.id %> -
+    <%= link_to internship.title, [@intern, internship] %>
+  </li>
+<% end %>
+</ul>

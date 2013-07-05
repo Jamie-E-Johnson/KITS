@@ -1,0 +1,77 @@
+
+<%= form_for(@intern) do |intern_form| %>
+  <% if @intern.errors.any? %>
+    <div id="errorExplanation">
+      <h2><%= pluralize(@intern.errors.count, 'error') %> prohibited this intern from being saved:</h2>
+      <ul>
+        <% @intern.errors.full_messages.each do |msg| %>
+          <li><%= msg %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= intern_form.label :first_name %><br />
+<%= intern_form.text_field :first_name %>
+</div>
+
+  <div class="field">
+    <%= intern_form.label :middle_initial %><br />
+    <%= intern_form.text_field :middle_initial%>
+  </div>
+
+  <div class="field">
+    <%= intern_form.label :last_name %><br />
+    <%= intern_form.text_field :last_name%>
+  </div>
+  <div class="field">
+    <%= intern_form.label :home_city %><br />
+    <%= intern_form.text_field :home_city%>
+  </div>
+
+  <div class="field">
+    <%= intern_form.label :home_state %><br />
+    <%= intern_form.text_field :home_state%>
+  </div>
+
+  <div class="field">
+    <%= intern_form.label :local_city %><br />
+    <%= intern_form.text_field :local_city%>
+  </div>
+
+  <div class="field">
+    <%= intern_form.label :classification %><br />
+    <%= intern_form.text_field :classification%>
+  </div>
+
+  <div class="field">
+    <%= intern_form.label :age %><br />
+    <%= intern_form.text_field :age%>
+  </div>
+
+  <div class="field">
+    <%= intern_form.label :ethnicity %><br />
+    <%= intern_form.text_field :ethnicity%>
+  </div>
+
+  <div class="field">
+    <%= intern_form.label :major %><br />
+    <%= intern_form.text_field :major%>
+  </div>
+
+  <div class="field">
+    <%= intern_form.label :minor %><br />
+    <%= intern_form.text_field :minor%>
+  </div>
+
+  <div class="field">
+    <%= intern_form.label :congress_district %><br />
+    <%= intern_form.text_field :congress_district%>
+  </div>
+
+
+  <div class="actions">
+      <%= intern_form.submit class: "btn btn-danger" %>
+    </div>
+<% end %>

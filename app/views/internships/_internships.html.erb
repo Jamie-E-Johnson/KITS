@@ -1,0 +1,14 @@
+<p>
+  <b>Internship:</b>
+  <%= internship.name %>
+</p>
+
+
+
+<p>
+  <%= link_to 'Destroy Internship', [internship.intern, internship],
+              :confirm => 'Are you sure?',
+              :method => :delete,
+              class: "btn btn-danger"
+  %>
+</p>
