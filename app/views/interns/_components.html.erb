@@ -1,9 +1,11 @@
-<%= form_tag('/interns/search', id: "form_search") do %>
-  <div id="my_searches">
-    <%= render partial: "search" %>
+<%= form_for @search do |f| %>
+  <div id= "my_searches">
+    <%= link_to_add_fields "Add Search", f, :search_attributes%>
   </div>
-  <%= link_to 'Add',"#", id: 'add_button', name: "AddButton", class: "btn"%>
-  <div><%= submit_tag 'Search' %></div>
+
+  </br>
+  </br>
+  <div><%= submit_tag 'Search',:name => nil %></div>
 <% end %>
 
 

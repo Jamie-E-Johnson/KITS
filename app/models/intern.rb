@@ -5,4 +5,38 @@ class Intern < ActiveRecord::Base
   validates :first_name, :last_name, presence: true
   accepts_nested_attributes_for :internships
 
+
+
+  def self.search(search)
+    if search
+
+      #find(:all, :conditions => ['name LIKE?', "%#{search}%"])
+
+
+      #where('name LIKE ?',"%#{search}%")
+    else
+      #find(:all)
+      #scoped
+    end
+  end
+
+
+   def self.uniq_id(counter)
+     puts 1.next
+     counter += 1
+
+     return counter
+   end
+
+  def filtered_results(search_params)
+
+    search_params.each do |f|
+
+    end
+
+  end
+
+
+
+
 end

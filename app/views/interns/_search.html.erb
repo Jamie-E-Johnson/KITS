@@ -1,5 +1,9 @@
 <div class="search">
-  <%= select_tag "Select Categories", options_for_select(Intern.column_names.reject{|a| a =~/^id$|updated_at|created_at/i}.map{|i| i.titleize}),:prompt => "Select Option", class: "category"  %>
+  <%#= select_tag "Select Categories", options_for_select(Intern.column_names.reject{|a| a =~/^id$|updated_at|created_at/i}.map{|i| i.titleize}, ),:prompt => "Select Option", class: "category"  %>
+  <%= f.select :drop_down, options_for_select(Intern.column_names.reject{|a| a =~/^id$|updated_at|created_at/i}.collect {|i| [i.titleize, i]}, selected: f.object.drop_down), class: "category"  %>
   <%= text_field_tag 'query', '', placeholder: '' %>
-  <%= link_to 'Remove', "#", id: 'RemoveButton', class: "btn"      %>   <br>
+  <%#= text_field_tag :search, params[:search] %>
+   <%= hidden_field_tag :destory %>
+  <%= link_to 'Remove',"#", id: 'remove_fields', name: "RemoveButton", class: "btn"%>   <br>
+  <%#= link_to 'Remove', "#", id: 'remove_button', name: "RemoveButton", class: "btn"      %>
 </div>

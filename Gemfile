@@ -35,9 +35,9 @@ gem 'will_paginate'
 gem 'ffaker'
 gem 'bootswatch-rails'
 gem 'nested_form'
-
-
-
+gem 'thin'
+gem 'will_paginate-bootstrap'
+gem 'bourbon'
 group :doc do
   # bundle exec rake doc:rails generates the API under doc/api.
   gem 'sdoc', require: false
@@ -64,5 +64,11 @@ group :test do
   gem 'capybara', "2.0.2"
   gem 'factory_girl_rails', '4.2.1'
   gem 'factory_girl', '4.2.0'
+
+end
+
+group :assets do
+  gem 'compass-rails'
+
 
 end

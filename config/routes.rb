@@ -1,8 +1,12 @@
 KITS::Application.routes.draw do
+
+  resources :searches
+
   root :to => 'interns#index'
   resources :interns  do
     post 'search', on: :collection
     post 'add_fields', on: :collection
+    delete 'remove_fields', on: :collection
     resources :internships
   end
   # The priority is based upon order of creation: first created -> highest priority.

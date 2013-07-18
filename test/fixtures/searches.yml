@@ -1,0 +1,9 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  drop-down: MyString
+  criteria: MyString
+
+two:
+  drop-down: MyString
+  criteria: MyString

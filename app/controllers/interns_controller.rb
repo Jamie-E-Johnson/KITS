@@ -1,4 +1,5 @@
 class InternsController < ApplicationController
+  helper_method :sort_column, :sort_direction
   before_action only: [:show, :edit, :update, :destroy]
 
   # GET /posts
@@ -9,6 +10,8 @@ class InternsController < ApplicationController
     @interns =Intern.all
     @interns = Intern.paginate(:page => params[:page], :per_page => 25)
 
+    @search = Search.new
+    #@interns = Intern.search(params[:search]).order(sort_column + " " + sort_direction).paginate(:per_page => 25, :page => params[:page])
 
   end
 
@@ -80,18 +83,26 @@ class InternsController < ApplicationController
 
   end
 
-  def search
-   # raise StandardError
 
-    @interns = Intern.where("#{params["Select Categories"].Intern.parameterize.underscore} like ?", "%#{params[:query]}%")
-    @interns = @interns.paginate(:page => params[:page], :per_page => 25)
-    #raise Exception
+  def search
+
+    #@interns = Intern.where("#{params["Select Categories"].parameterize.underscore} like ?", "%#{params[:query]},%").paginate(:joins => params[:intern],:page => params[:page], :per_page => 25)
+
+    @interns = Intern.filtered_results(params[:search])
+    @search = Search.new if @search.nil?
+
+    #@interns = Intern.where("#{params['Select Categories'].parameterize.underscore} like ?", "%#{params[:query]}%").paginate(:page => params[:page], :per_page => 25, :joins => 'search')
     render :index
   end
 
   def add_fields
-    render partial: 'interns/search'
+    render partial: 'interns/search_attribute_fields'
   end
+
+   def remove_fields
+
+end
+
 
   private
 

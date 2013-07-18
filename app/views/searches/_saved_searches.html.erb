@@ -1,0 +1,28 @@
+<%= form_for @search do |f| %>
+
+<%#= form_for(@search) do |f| %>
+
+  <%#= text_field_tag :search, params[:search] %>
+  <%#= submit_tag "Search", :name => nil %>
+  <div id= "my_searches">
+      <%= f.fields_for :search_attributes do |builder| %>
+        <%= render 'interns/search_attribute_fields', f: builder %>
+      <% end %>
+
+
+    <%#= render partial = "attribute" %>
+    <%#= render partial: "search" %>
+    <%= link_to_add_fields "Add Search", f, :search_attributes%>
+
+  </div>
+
+
+
+<%#= link_to 'Add Search',"#", id: 'add_button', name: "AddButton", class: "btn"%>
+  </br>
+  </br>
+
+  <div><%= submit_tag 'Search',:name => nil %></div>
+<% end %>
+
+

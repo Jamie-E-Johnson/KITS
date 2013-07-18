@@ -1,0 +1,49 @@
+<table class="table table-bordered table-hover">
+  <tr>
+    <td><h5>First Name</h5></td>
+    <td><h5>Middle Initial</h5></td>
+    <td><h5>Last Name</h5></td>
+    <td><h5>Age</h5></td>
+    <td><h5>School</h5></td>
+    <td><h5>Classification</h5></td>
+    <td><h5>Major</h5></td>
+    <td><h5>Minor</h5></td>
+    <td><h5>Local City</h5></td>
+    <td><h5>Local State</h5></td>
+    <td><h5>Home City</h5></td>
+    <td><h5>Home State</h5></td>
+    <td><h5>Ethnicity</h5></td>
+    <td><h5>Congressional District</h5></td>
+  </tr>
+
+  <% @interns.each do |intern| %>
+    <tr>
+
+      <td><%= intern.first_name %></td>
+      <td><%= intern.middle_initial %></td>
+      <td><%= intern.last_name %></td>
+      <td><%= intern.age %></td>
+      <td><%= intern.school %></td>
+      <td><%= intern.classification%></td>
+      <td><%= intern.major %></td>
+      <td><%= intern.minor %></td>
+      <td><%= intern.local_city %></td>
+      <td><%= intern.local_state %></td>
+      <td><%= intern.home_city %></td>
+      <td><%= intern.home_state %></td>
+      <td><%= intern.ethnicity %></td>
+      <td><%= intern.congress_district%></td>
+
+      <td><%= link_to 'Show', intern %></td>
+      <td><%= link_to 'Edit', edit_intern_path(intern) %></td>
+      <td><%= link_to 'Destroy', intern, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+    </tr>
+  <% end %>
+</table>
+
+  <div class="page_info">
+    <%= page_entries_info @interns %>
+  </div>
+  <%= hidden_field_tag :direction, params[:direction] %>
+  <%#= hidden_field_tag :sort, params[:sort] %>
+  <%= will_paginate @interns, renderer: BootstrapPagination::Rails %>

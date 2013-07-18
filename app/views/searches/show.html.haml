@@ -1,0 +1,12 @@
+%p#notice= notice
+
+%p
+  %b Drop-down:
+  = @search.drop_down
+%p
+  %b Criteria:
+  = @search.criteria
+
+= link_to 'Edit', edit_search_path(@search)
+\|
+= link_to 'Back', searches_path
