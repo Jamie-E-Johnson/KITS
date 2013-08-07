@@ -1,5 +1,6 @@
 class SearchesController <  ApplicationController
   before_action :set_search, only: [:show, :edit, :destroy]
+  helper_method :sort_column, :sort_direction
   require 'will_paginate/array'
 
   # GET /searches
@@ -8,11 +9,13 @@ class SearchesController <  ApplicationController
     @intern = Intern.new
 
     #@interns = Intern.paginate(:page => params[:page], :per_page => 25)
-      @search = Search.new
+    #@search = Search.new
     @search = Search.first
     @searches = Search.all
+    @interns = @search.custom_search.order(sort_column + " " + sort_direction).paginate(:page => params[:page], :per_page => 25)
+    # @interns = @search.custom_search().order(params[:sort_by]).paginate(:page => params[:page], :per_page => 25)
 
-    @interns = @search.custom_search().paginate(:page => params[:page], :per_page => 25)
+
 
 
     #maybe eventually add more saved seraches !?!?!?!?!?
@@ -77,6 +80,16 @@ class SearchesController <  ApplicationController
     def searches_params
       params.require(:search).permit(:search_id, :drop_down, :criteria, :search_attributes_attributes)
     end
+
+  def sort_column
+    params[:sort] || "first_name"
+
+
+  end
+
+  def sort_direction
+    params[:direction] || "asc"
+  end
 
 end
 

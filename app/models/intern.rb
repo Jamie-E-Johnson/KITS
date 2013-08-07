@@ -1,10 +1,9 @@
 class Intern < ActiveRecord::Base
 
-  has_many :internships, dependent: :destroy
-  #validates :first_name, :middle_initial, :last_name, :home_city, :home_state, :local_city, :classification, :age, :ethnicity, :major, :minor, :congress_district, presence: true
-  validates :first_name, :last_name, presence: true
+  has_many :internships, dependent: :destroy, order: "year desc"
+  validates :first_name, :last_name, :home_city, :home_state, :local_city, :local_state,:classification, :dob, :major, :school_congress_district,:home_congress_district, presence: true
+ # validates :first_name, :last_name, presence: true
   accepts_nested_attributes_for :internships
-
 
 
   def self.search(search)
@@ -20,13 +19,21 @@ class Intern < ActiveRecord::Base
     end
   end
 
+  def self.drop_down_options
+    options = Intern.column_names.reject{|a| a =~/^id$|updated_at|created_at/i}.collect{|i| [i.titleize, i]}
+    options << ['Season', 'season']
+    options << ['Year', 'year']
+    options << ['Program', 'program']
+    options
+  end
 
-   def self.uniq_id(counter)
-     puts 1.next
-     counter += 1
 
-     return counter
-   end
+  def self.uniq_id(counter)
+    puts 1.next
+    counter += 1
+
+    return counter
+  end
 
   def filtered_results(search_params)
 
@@ -35,8 +42,6 @@ class Intern < ActiveRecord::Base
     end
 
   end
-
-
 
 
 end

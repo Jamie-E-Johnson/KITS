@@ -13,13 +13,23 @@ class InternsController < ApplicationController
     @search = Search.new
     #@interns = Intern.search(params[:search]).order(sort_column + " " + sort_direction).paginate(:per_page => 25, :page => params[:page])
 
+    respond_to do |format|
+      format.html
+      format.pdf do
+        pdf = InternPdf.new(@interns)
+        send_data pdf.render, filename: "reports.pdf",
+                  type: "application/pdf"
+      end
+    end
+
+
   end
 
   # GET /posts/1
   # GET /posts/1.json
   def show
     @intern = Intern.find(params[:id])
-
+    @internships = Internship.where(intern_id: @intern.id)
     respond_to do |format|
       format.html #show.html.erb
       format.json { render json: @intern }
@@ -78,7 +88,7 @@ class InternsController < ApplicationController
     @intern.destroy
 
 
-    redirect_to interns_url
+    redirect_to searches_url
 
 
   end
@@ -103,10 +113,13 @@ class InternsController < ApplicationController
 
 end
 
+  def add_internship
+
+  end
 
   private
 
   def intern_params
-    params.require(:intern).permit(:first_name, :middle_initial, :last_name, :home_city, :home_state, :local_city, :classification, :age, :ethnicity, :major, :minor, :congress_district)
+    params.require(:intern).permit(:first_name, :middle_initial, :last_name, :school, :home_city, :home_state, :local_city,:local_state, :classification, :dob, :ethnicity, :major, :minor, :home_congress_district, :school_congress_district)
   end
 end

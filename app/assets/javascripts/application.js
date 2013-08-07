@@ -12,7 +12,7 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require turbolinks
 //= require interns
 //= require paginate
-//= require_tree .
 

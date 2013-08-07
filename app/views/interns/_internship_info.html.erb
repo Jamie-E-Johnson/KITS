@@ -1,0 +1,36 @@
+
+
+
+
+<div class="container">
+  <div class="span4 offset3">
+ <div class="internshipslabel"> <h3> Internships</h3></div>
+  </div>
+  <% @internships.each do|internship|%>
+
+
+  <div id="internshipdata" class="well">
+
+
+    <p>
+      <strong>Season:</strong>
+      <%= internship.season %>
+    </p>
+
+    <p>
+      <strong>Year:</strong>
+      <%= internship.year %>
+    </p>
+
+    <p>
+      <strong>Program:</strong>
+      <%= internship.program %>
+    </p>
+
+
+
+    <%=link_to "Edit", edit_intern_internship_path(@intern, internship) %>
+    <%=link_to "Delete", [@intern, internship], method: :delete, data: {confirm: 'Are you sure?'} %>
+  </div>
+  <%end%>
+  </div>

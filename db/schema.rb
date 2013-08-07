@@ -11,26 +11,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130715193337) do
+ActiveRecord::Schema.define(version: 20130805163331) do
 
   create_table "interns", force: true do |t|
     t.string   "first_name"
     t.string   "middle_initial"
     t.string   "last_name"
-    t.string   "home_city"
-    t.string   "home_state"
     t.string   "local_city"
     t.string   "classification"
-    t.integer  "age"
+    t.date     "dob",                      limit: 255
     t.string   "ethnicity"
     t.string   "major"
-    t.string   "minor"
-    t.string   "congress_district"
+    t.string   "school_congress_district"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "dob"
     t.string   "school"
     t.string   "local_state"
+    t.string   "home_city"
+    t.string   "home_state"
+    t.string   "home_congress_district"
   end
 
   create_table "internships", force: true do |t|

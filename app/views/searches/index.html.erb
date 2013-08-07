@@ -1,15 +1,21 @@
 
-<h2>Results</h2>
 
 
 <%= render "saved_searches" %>
 
+    <div class='container'>
+       <div id='resultslabel'>
+      <h2><%= @interns.count%> Interns</h2>
+       </div>
+
+  </div>
 <div class="paginate_table">
+
   <%= render partial: "search_table" %>
 </div>
 
 <div class="page_info">
-  <%= page_entries_info @interns %>
+  <%#= page_entries_info @interns %>
 </div>
 <%= hidden_field_tag :direction, params[:direction] %>
 <%#= hidden_field_tag :sort, params[:sort] %>

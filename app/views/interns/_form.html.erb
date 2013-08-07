@@ -2,7 +2,7 @@
 <%= form_for(@intern) do |intern_form| %>
   <% if @intern.errors.any? %>
     <div id="errorExplanation">
-      <h2><%= pluralize(@intern.errors.count, 'error') %> prohibited this intern from being saved:</h2>
+      <h4><%= pluralize(@intern.errors.count, 'error') %> prohibited this intern from being saved:</h4>
       <ul>
         <% @intern.errors.full_messages.each do |msg| %>
           <li><%= msg %></li>
@@ -10,68 +10,95 @@
       </ul>
     </div>
   <% end %>
-
+  <div class="classcol1">
   <div class="field">
-    <%= intern_form.label :first_name %><br />
+    <%= intern_form.label :first_name %>
 <%= intern_form.text_field :first_name %>
 </div>
 
   <div class="field">
-    <%= intern_form.label :middle_initial %><br />
+    <%= intern_form.label :middle_initial %>
     <%= intern_form.text_field :middle_initial%>
   </div>
 
   <div class="field">
-    <%= intern_form.label :last_name %><br />
+    <%= intern_form.label :last_name %>
     <%= intern_form.text_field :last_name%>
   </div>
-  <div class="field">
-    <%= intern_form.label :home_city %><br />
-    <%= intern_form.text_field :home_city%>
-  </div>
 
   <div class="field">
-    <%= intern_form.label :home_state %><br />
-    <%= intern_form.text_field :home_state%>
+    <%= intern_form.label :dob %>
+    <%= intern_form.date_field :dob%>
   </div>
 
-  <div class="field">
-    <%= intern_form.label :local_city %><br />
-    <%= intern_form.text_field :local_city%>
-  </div>
 
+  <div class="classcol2">
   <div class="field">
-    <%= intern_form.label :classification %><br />
+    <%= intern_form.label :school %>
+    <%= intern_form.text_field :school%>
+  </div>
+  </div>
+  <div class="field">
+    <%= intern_form.label :classification %>
     <%= intern_form.text_field :classification%>
   </div>
 
   <div class="field">
-    <%= intern_form.label :age %><br />
-    <%= intern_form.text_field :age%>
+  <%= intern_form.label :major %>
+  <%= intern_form.text_field :major%>
+</div>
+
+  <div class="field">
+    <%= intern_form.label :local_city %>
+    <%= intern_form.text_field :local_city%>
+  </div>
+
+
+  <div class="classcol3">
+  <div class="field">
+    <%= intern_form.label :local_state %>
+    <%= intern_form.text_field :local_state%>
+  </div>
+  </div>
+  <div class="field">
+    <%= intern_form.label :school_congressional_district %>
+    <%= intern_form.text_field :school_congress_district%>
+  </div>
+
+
+  <div class="field">
+    <%= intern_form.label :home_city %>
+    <%= intern_form.text_field :home_city%>
   </div>
 
   <div class="field">
-    <%= intern_form.label :ethnicity %><br />
-    <%= intern_form.text_field :ethnicity%>
+    <%= intern_form.label :home_state %>
+    <%= intern_form.text_field :home_state%>
   </div>
 
-  <div class="field">
-    <%= intern_form.label :major %><br />
-    <%= intern_form.text_field :major%>
+
+
+    <div class="field">
+      <%= intern_form.label :home_congressional_district %>
+      <%= intern_form.text_field :home_congress_district%>
+    </div>
+
+    <div class="field">
+      <%= intern_form.label :ethnicity %>
+      <%= intern_form.text_field :ethnicity%>
+    </div>
+
+
   </div>
 
-  <div class="field">
-    <%= intern_form.label :minor %><br />
-    <%= intern_form.text_field :minor%>
-  </div>
-
-  <div class="field">
-    <%= intern_form.label :congress_district %><br />
-    <%= intern_form.text_field :congress_district%>
-  </div>
 
 
   <div class="actions">
-      <%= intern_form.submit class: "btn btn-danger" %>
+    <tr>
+
+    <td><%= link_to 'Back', searches_path, name: "Back", class: "btn btn-info" %></td>
+      <td><%= intern_form.submit class: "btn btn-info" %></td>
+      </tr>
     </div>
+
 <% end %>

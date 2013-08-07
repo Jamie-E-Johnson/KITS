@@ -4,37 +4,65 @@
     <list default="true" id="5d47b84f-889b-4c1e-ac64-fa1935cef70e" name="Default" comment="" />
     <ignored path="KITS2.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/interns.js.coffee" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373566750063" ignored="false" />
-    <file path="/application_helper.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374068430374" ignored="false" />
-    <file path="/routes.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374170796139" ignored="false" />
-    <file path="/interns_controller.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374087690320" ignored="false" />
-    <file path="/_search.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374086605250" ignored="false" />
-    <file path="/a.dummy" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374172076475" ignored="false" />
+    <file path="/interns.js.coffee" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375733359873" ignored="false" />
+    <file path="/application_helper.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375809051958" ignored="false" />
+    <file path="/routes.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375303646727" ignored="false" />
+    <file path="/interns_controller.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375800425333" ignored="false" />
+    <file path="/_search.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374263988523" ignored="false" />
+    <file path="/a.dummy" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375734162431" ignored="false" />
     <file path="/application.js" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373487212633" ignored="false" />
-    <file path="/Gemfile" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374097661611" ignored="false" />
+    <file path="/Gemfile" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374249413603" ignored="false" />
     <file path="$PROJECT_DIR$/log/development.log" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373553912365" ignored="false" />
-    <file path="/_components.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373916839771" ignored="false" />
-    <file path="/intern.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374004021407" ignored="false" />
+    <file path="/_components.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375293868437" ignored="false" />
+    <file path="/intern.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375809937155" ignored="false" />
     <file path="/index.js.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373988618538" ignored="false" />
-    <file path="/index.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373989530321" ignored="false" />
-    <file path="/_intern_table.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373553174452" ignored="false" />
-    <file path="/application.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374169101903" ignored="false" />
+    <file path="/index.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375734084889" ignored="false" />
+    <file path="/_intern_table.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375819063608" ignored="false" />
+    <file path="/application.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375734411302" ignored="false" />
     <file path="/20130712161733_create_searches.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373646250455" ignored="false" />
-    <file path="/search.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374070353090" ignored="false" />
+    <file path="/search.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375725274194" ignored="false" />
     <file path="/attribute.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373658231533" ignored="false" />
     <file path="/_attribute_fields.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373906875457" ignored="false" />
-    <file path="/searches_controller.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374172497858" ignored="false" />
+    <file path="/searches_controller.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375809913462" ignored="false" />
     <file path="/20130715193132_rename_attribute_to_search_attributes.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373916729040" ignored="false" />
     <file path="/temp.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373988092228" ignored="false" />
     <file path="/search_attribute.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374069675819" ignored="false" />
     <file path="/_search_intern_table.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373986181384" ignored="false" />
     <file path="/_search_form.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373987369493" ignored="false" />
     <file path="$PROJECT_DIR$/test/controllers/searches_controller_test.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373988092228" ignored="false" />
-    <file path="/_saved_searches.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374072562998" ignored="false" />
-    <file path="/_search_attribute_fields.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374071425066" ignored="false" />
+    <file path="/_saved_searches.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375196396052" ignored="false" />
+    <file path="/_search_attribute_fields.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375301676986" ignored="false" />
     <file path="/show.html.haml" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1373998765467" ignored="false" />
-    <file path="/application.css.scss" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374100957577" ignored="false" />
-    <file path="/scaffolds.css.scss" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374169080373" ignored="false" />
+    <file path="/application.css.scss" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375210654909" ignored="false" />
+    <file path="/scaffolds.css.scss" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375819361521" ignored="false" />
+    <file path="/InternPdf.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374251144601" ignored="false" />
+    <file path="/_form.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375817671721" ignored="false" />
+    <file path="/new.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375388053710" ignored="false" />
+    <file path="/url_helper.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1374502405838" ignored="false" />
+    <file path="/_search_table.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375819331174" ignored="false" />
+    <file path="/20130729154259_remove_extra_columns.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375112966049" ignored="false" />
+    <file path="/show.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375817383532" ignored="false" />
+    <file path="/20130729175645_rename_column.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375120807789" ignored="false" />
+    <file path="/intern_pdf.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375190625081" ignored="false" />
+    <file path="/_create_form.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375293696343" ignored="false" />
+    <file path="/_show_info.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375720610595" ignored="false" />
+    <file path="/edit.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375819442448" ignored="false" />
+    <file path="/_update_form.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375300135826" ignored="false" />
+    <file path="/add_internship.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375303102270" ignored="false" />
+    <file path="/internships_controller.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375818618608" ignored="false" />
+    <file path="/_internship_info.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375818533750" ignored="false" />
+    <file path="/seeds.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375710125936" ignored="false" />
+    <file path="/_internships_button.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375817010788" ignored="false" />
+    <file path="/20130802172618_rename_attribute_to_dob.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375464512597" ignored="false" />
+    <file path="/schema.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375464822569" ignored="false" />
+    <file path="/20130802174350_rename_attribute_columns2.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375465674387" ignored="false" />
+    <file path="/20130802181310_add_attribute_columns3.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375467318729" ignored="false" />
+    <file path="/20130805132344_change_do_bto_string.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375709103881" ignored="false" />
+    <file path="/20130805134738_change_do_bto_stringp2.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375710494533" ignored="false" />
+    <file path="/20130805141132_rename_cong_district.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375712117834" ignored="false" />
+    <file path="/20130805163331_add_home_cong_district.rb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375720472207" ignored="false" />
+    <file path="/paginate.js.coffee" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375733385888" ignored="false" />
+    <file path="/_updateinternships.html.erb" changelist="5d47b84f-889b-4c1e-ac64-fa1935cef70e" time="1375812606917" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,55 +82,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="20130715193337_rename_attribute_to_search_attribute.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130715193337_rename_attribute_to_search_attribute.rb">
+      <file leaf-file-name="new.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/interns/new.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20130715193132_rename_attribute_to_search_attributes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130715193132_rename_attribute_to_search_attributes.rb">
+      <file leaf-file-name="index.js.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/interns/index.js.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="interns_controller.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/interns/index.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_components.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/interns/_components.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="20" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.9615384">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interns_controller.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/controllers/interns_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="109" column="22" selection-start="2306" selection-end="2313" vertical-scroll-proportion="0.0">
+            <state line="12" column="4" selection-start="326" selection-end="326" vertical-scroll-proportion="0.17525773">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="intern.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/intern.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/searches/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="internship.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/internship.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="search_attribute.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/search_attribute.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -111,34 +139,34 @@
       <file leaf-file-name="search.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/search.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="24" selection-start="36" selection-end="63" vertical-scroll-proportion="0.0">
+            <state line="8" column="23" selection-start="256" selection-end="260" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searches_controller.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/controllers/searches_controller.rb">
+      <file leaf-file-name="_search.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/interns/_search.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="39" selection-start="1539" selection-end="1592" vertical-scroll-proportion="0.45582587">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="_search_attribute_fields.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/interns/_search_attribute_fields.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="26" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20130712161733_create_searches.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20130712161733_create_searches.rb">
+      <file leaf-file-name="_intern_table.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/interns/_intern_table.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="45" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -157,29 +185,30 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/models/search_attribute.rb" />
-        <option value="$PROJECT_DIR$/app/views/interns/_search_attribute_fields.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/interns/_components.html.erb" />
-        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
-        <option value="$PROJECT_DIR$/app/views/searches/_search_table.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/searches/_saved_searches.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/interns/_search.html.erb" />
         <option value="$PROJECT_DIR$/app/models/search.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/interns_controller.rb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/layout.css.scss" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/helpers/application_helper.rb" />
         <option value="$PROJECT_DIR$/app/controllers/searches_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/intern.rb" />
+        <option value="$PROJECT_DIR$/app/views/interns/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/internships/_updateinternships.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/interns/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/internships/_form.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/interns/_internships_button.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/interns/_internship_info.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/internships_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/searches/_search_table.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/internships/new.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/internships/edit.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss" />
+        <option value="$PROJECT_DIR$/app/views/interns/_intern_table.html.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="width" value="960" />
-    <option name="height" value="1040" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -207,7 +236,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -223,80 +251,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="KITS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KITS2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KITS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="public" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KITS2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KITS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KITS2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KITS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="migrate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KITS2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KITS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KITS2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="KITS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -339,10 +293,6 @@
               <option name="myItemId" value="views" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -359,6 +309,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="internships" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,10 +351,6 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="models" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -413,6 +363,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -452,8 +406,49 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KITS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KITS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KITS2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KITS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="RailsProjectView" />
     </panes>
   </component>
@@ -681,19 +676,39 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34541336" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16129032" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24957936" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.6545866" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24944812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.12646745" sideWeight="0.83870965" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3448276" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -767,84 +782,77 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130625164601_create_interns.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/searches/_search_table.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="21" selection-start="1843" selection-end="1843" vertical-scroll-proportion="-29.807692">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/internships/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="25" selection-start="120" selection-end="120" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/internships/edit.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="50" selection-start="121" selection-end="121" vertical-scroll-proportion="-3.9230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.css.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="296" column="19" selection-start="3834" selection-end="3834" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/internships_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="49" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/interns/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="20" selection-start="193" selection-end="193" vertical-scroll-proportion="-7.1923075">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/interns/new.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130712193710_remove_criteria_from_search.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/interns/index.js.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130712185444_create_attributes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/interns/_intern_table.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130626200434_add_intern_id_to_internships.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/interns/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130712184523_add_column_number_to_search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130712191635_remove_field_name_from_search.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130715193337_rename_attribute_to_search_attribute.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130715193132_rename_attribute_to_search_attributes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/interns_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="109" column="22" selection-start="2306" selection-end="2313" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/intern.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/internship.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/search_attribute.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/interns/_search_attribute_fields.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
@@ -853,28 +861,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/search.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="24" selection-start="36" selection-end="63" vertical-scroll-proportion="0.0">
+        <state line="8" column="23" selection-start="256" selection-end="260" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/migrate/20130712161733_create_searches.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/interns/_search.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="45" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/interns/_components.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
+        <state line="3" column="20" selection-start="46" selection-end="46" vertical-scroll-proportion="-1.9615384">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/searches_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/searches/index.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="39" selection-start="1539" selection-end="1592" vertical-scroll-proportion="0.45582587">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/interns_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="4" selection-start="326" selection-end="326" vertical-scroll-proportion="0.17525773">
           <folding />
         </state>
       </provider>

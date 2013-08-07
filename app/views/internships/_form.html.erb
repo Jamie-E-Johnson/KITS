@@ -1,10 +1,29 @@
-<%= form_for([@intern, @intern.inernships.build]) do |f| %>
+
+
+<%= form_for([@intern, @internship]) do |f| %>
   <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </div>
+
+    <%= f.label :season %><br />
+    <%= f.text_field :season %>
+    </div>
+  <div class="field">
+    <%= f.label :year %><br />
+    <%= f.text_field :year %>
+    </div>
+  <div class="field">
+    <%= f.label :program %><br />
+    <%= f.text_field :program %>
+    </div>
 
   <div class="actions">
-    <%= f.submit %>
+    <tr>
+      <td><%= link_to 'Back', intern_path(@intern), class: "btn btn-info" %></td>
+      <td> <%= f.submit class: "btn btn-info" %></td>
+    </tr>
   </div>
-<% end %>
+  </div>
+
+
+
+
+   <% end %>

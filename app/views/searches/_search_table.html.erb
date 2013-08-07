@@ -1,50 +1,57 @@
-<table class="table table-bordered table-hover">
-  <tr>
-    <td><h5>First Name</h5></td>
-    <td><h5>Middle Initial</h5></td>
-    <td><h5>Last Name</h5></td>
-    <td><h5>Age</h5></td>
-    <td><h5>School</h5></td>
-    <td><h5>Classification</h5></td>
-    <td><h5>Major</h5></td>
-    <td><h5>Minor</h5></td>
-    <td><h5>Local City</h5></td>
-    <td><h5>Local State</h5></td>
-    <td><h5>Home City</h5></td>
-    <td><h5>Home State</h5></td>
-    <td><h5>Ethnicity</h5></td>
-    <td><h5>Congressional District</h5></td>
-  </tr>
 
-  <% @interns.each do |intern| %>
+
+
+  <table class="yellow table table-bordered table-hover">
     <tr>
+      <td><h6><%= sortable "first_name" %></h6></td>
+      <th><h6><%= sortable "middle_initial" %></h6></th>
+      <th><h6><%= sortable "last_name" %></h6></th>
+      <th><h6><%= sortable "dob" %></h6></th>
+      <th><h6><%= sortable "school" %></h6></th>
+      <th><h6><%= sortable "classification" %></h6></th>
+      <th><h6><%=sortable "major"%></h6></th>
+      <th><h6><%=sortable "Ethnicity"%></h6></th>
+      <th><h6><%=sortable "local_city" %></h6></th>
+      <th><h6><%=sortable "local_state" %></h6></th>
+      <th><h6><%=sortable "school_congress_district" %> </h6></th>
+      <th><h6><%=sortable "year" %> </h6></th>
 
-      <td><%= intern.first_name %></td>
-      <td><%= intern.middle_initial %></td>
-      <td><%= intern.last_name %></td>
-      <td><%= intern.age %></td>
-      <td><%= intern.school %></td>
-      <td><%= intern.classification%></td>
-      <td><%= intern.major %></td>
-      <td><%= intern.minor %></td>
-      <td><%= intern.local_city %></td>
-      <td><%= intern.local_state %></td>
-      <td><%= intern.home_city %></td>
-      <td><%= intern.home_state %></td>
-      <td><%= intern.ethnicity %></td>
-      <td><%= intern.congress_district%></td>
 
-      <td><%= link_to 'Show', intern %></td>
-      <td><%= link_to 'Edit', edit_intern_path(intern) %></td>
-      <td><%= link_to 'Destroy', intern, method: :delete, data: { confirm: 'Are you sure?' } %></td>
     </tr>
-  <% end %>
-</table>
 
-<div class="page_info">
-  <%= page_entries_info @interns %>
-</div>
+    <% @interns.each do |intern| %>
+      <tr >
+        <td><%= intern.first_name %></td>
+        <td><%= intern.middle_initial %></td>
+        <td><%= intern.last_name %></td>
+        <td><%= intern.dob.strftime "%m-%d-%Y" %></td>
+        <td><%= intern.school %></td>
+        <td><%= intern.classification %></td>
+        <td><%= intern.major %></td>
+        <td><%= intern.ethnicity %></td>
+        <td><%= intern.local_city %></td>
+        <td><%= intern.local_state %></td>
+        <td><%= intern.school_congress_district %></td>
+        <td><% intern.internships.each do |internship| %>
+             <%= internship.year %>
+            <% end %>
+            </td>
+        <td><%= link_to 'Show', intern %></td>
+        <td><%= link_to 'Edit', edit_intern_path(intern) %></td>
+        <td><%= link_to 'Delete', intern, method: :delete, data: {confirm: 'Are you sure?'} %></td>
+      </tr>
+    <% end %>
+  </table>
+
 <%= hidden_field_tag :direction, params[:direction] %>
 <%#= hidden_field_tag :sort, params[:sort] %>
 
+  <div class="paginate_align">
+    <div class="page_info">
+      <%= page_entries_info @interns %>
+    </div>
+
+
 <%= will_paginate @interns, renderer: BootstrapPagination::Rails %>
+
+<%= link_to "Download as PDF", interns_path(format: "pdf") %></div>

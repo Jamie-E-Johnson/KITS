@@ -1,13 +1,50 @@
+.kits_header {
+  border-width: 1px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+}
+
+.navbar-inner {
+  padding: 0;
+  margin: 0;
+  margin-top: -30px;
+  background-image: none;
+  background-color: #005fd2;
+  #background-color: #3366cc;
+
+}
 
 body {
-  background-color: #fff;
-  #background-image:url("app/assets/images/space-earth-nasa-hd-wallpapers-52.jpg");
+  //background-color: #FFFF19;
 
+  //background-image: url("KITS_HEADER.jpg");
+  background-image: url("space-earth-nasa-hd-wallpapers-52.jpg");
+  //background-image: url("SpaceArtWallpapers1024by768.jpg");
+  //background-image: url("Space_Earth_1600x807.jpg");
 
-  color: #333;
+  color: #ffcc00;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+}
+
+label.one {
+
+  color: #ffcc00;
+  font-family: verdana;
+  font-weight: bold;
+  font-size: 31px;
+  line-height: 18px;
+
+  text-align: center;
+
+}
+
+.btn-info {
+
+  color: #ffcc00;
+
 }
 
 p, ol, ul, td {
@@ -24,18 +61,13 @@ pre {
 
 a {
   color: #000;
-  &:visited {
-    color: #666;
-  }
-  &:hover {
-    color: #fff;
-    background-color: #000;
-  }
+
 }
 
 div {
   &.field, &.actions {
     margin-bottom: 10px;
+
   }
 }
 
@@ -63,11 +95,206 @@ div {
     font-size: 12px;
     margin: -7px;
     margin-bottom: 0px;
-    background-color: #c00;
+    #background-color: #c00;
     color: #fff;
   }
+
   ul li {
     font-size: 12px;
     list-style: square;
   }
+
+}
+
+.table tbody tr:hover td, .table tbody tr:hover th {
+  background-color: #3366cc;
+
+}
+
+table.yellow {
+
+  background-color: #ffcc00;
+  color: #000000;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  &:hover {
+    color: black;
+
+  }
+
+}
+
+.table-bordered {
+
+  th, td {
+    border-style: solid;
+    border-color: #000000;
+  }
+}
+
+a.yellow {
+  color: #000;
+  &:visited {
+    color: #666;
+  }
+
+}
+
+.pagination ul > li > a, .pagination ul > li > span {
+
+  background-color: #3366cc;
+
+}
+
+div.super {
+  margin-top: 225px;
+  text-align: center;
+}
+
+#my_searches {
+
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#b1 {
+
+  margin-left: auto;
+  margin-right: auto;
+
+  text-align: center;
+}
+
+table.go {
+
+  #text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 18px;
+}
+
+tbody {
+  display: table-row-group;
+  vertical-align: middle;
+  border-color: inherit;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+}
+
+.newsinterns {
+  -moz-column-count: 3; /* Firefox */
+  -webkit-column-count: 3; /* Safari and Chrome */
+  column-count: 3;
+
+  margin-left: 280px;
+  margin-top: 50px;
+}
+
+.newlabel {
+  margin-top: 40px;
+  margin-bottom: 75px;
+  margin-left: 470px;
+
+}
+
+#resultslabel {
+
+  margin-left: -182px;
+
+}
+
+#showinterndata {
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  width: 33%;
+
+  &.well {
+    background-color: #ffcc00;
+  }
+
+  & p {
+    font-size: 20px;
+    color: black;
+  }
+
+}
+
+#backshow {
+
+  margin-top: -245px;
+  margin-left: 1360px;
+
+}
+
+.internshipslabel {
+  margin-top: 140px;
+  text-align: center;
+}
+
+.internslabel {
+  margin-top: 140px;
+  #text-right: 88px;
+  #margin-right: -300px;
+  margin-left: 200px;
+}
+
+#internshipdata {
+  margin-top: 200px;
+  margin-left: 300px;
+
+  margin-bottom: -170px;
+  display: block;
+  width: 33%;
+
+  &.well {
+    background-color: #ffcc00;
+  }
+
+  & p {
+    font-size: 20px;
+    color: black;
+  }
+
+}
+
+#newinternship {
+
+  margin-left: 450px;
+  #text-align: center;
+
+}
+
+#internshipsbutton {
+
+  margin-left: 80px;
+
+  &.no_internships {
+    margin-top: -15px;
+  }
+
+  &.has_internships {
+    margin-top: 120px;
+  }
+
+}
+
+.classcol1 {
+
+  margin-bottom: 18px;
+
+}
+
+
+
+.paginate_align{
+
+
+   margin-left: 195px;
+
+
 }

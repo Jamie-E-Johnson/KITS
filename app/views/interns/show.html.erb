@@ -1,64 +1,20 @@
-<p>
-  <strong>First Name:</strong>
-  <%= @intern.first_name %>
-</p>
-
-<p>
-  <strong>Middle Initial:</strong>
-  <%= @intern.middle_initial %>
-</p>
-
-<p>
-  <strong>Last Name:</strong>
-  <%= @intern.last_name %>
-
-<p>
-  <strong>Home City:</strong>
-  <%= @intern.home_city %>
-</p>
-
-<p>
-  <strong>Home State:</strong>
-  <%= @intern.home_state %>
-</p>
-
-<p>
-  <strong>Local City:</strong>
-  <%= @intern.local_city %>
-
-</p>
+<div class="span6 offset2">
 
 
-<p>
-  <strong>Classification:</strong>
-  <%= @intern.classification %>
-</p>
+  <%= render "show_info" %>
+  <%= render partial: "internships_button", locals: {my_class: 'no_internships'} %>
 
-<p>
-  <strong>Age:</strong>
-  <%= @intern.age %>
-</p>
-
-<p>
-  <strong>Ethnicity:</strong>
-  <%= @intern.ethnicity %>
-</p>
-
-<p>
-  <strong>Major:</strong>
-  <%= @intern.major %>
-</p>
-
-<p>
-  <strong>Minor:</strong>
-  <%= @intern.minor %>
-</p>
-
-<p>
-  <strong>Congressional District:</strong>
-  <%= @intern.congress_district %>
-
-<p>
+</div>
 
 
-<%= link_to 'Back', interns_path %>
+<div class="span4">
+
+  <%= render "internship_info" %>
+
+</div>
+
+
+
+
+
+

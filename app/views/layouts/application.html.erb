@@ -2,12 +2,21 @@
 <html>
 <head>
   <title>KITS</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%#= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%#= javascript_include_tag "application", "data-turbolinks-track" => true %>
+
+
+  <%= stylesheet_link_tag "application", :media => "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
 
+<div class="navbar">
+  <div class="navbar-inner">
+    <%= image_tag "KITS_HEADER.jpg", class: "kits_header" %>
+  </div>
+</div>
 
 <% flash.each do |key, value| %>
   <div class='flash' id='<%= key %>'>

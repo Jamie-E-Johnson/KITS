@@ -1,14 +1,14 @@
 <fieldset>
-  <table>
+  <table class="go">
   <tr>
-  <td><%= f.label :drop_down, "Question " %>
-  <%= f.select :drop_down, options_for_select(Intern.column_names.reject{|a| a =~/^id$|updated_at|created_at/i}.collect {|i| [i.titleize, i]}, selected: f.object.drop_down), class: "category"  %></td>
-  <td> <%= f.label :criteria, "Criteria " %>
-  <%= f.text_field :criteria %></td>
+    <td><label class="one"><%= f.label :drop_down, "Categories:" %></td>
+  <td><%= f.select :drop_down, options_for_select(Intern.drop_down_options, selected: f.object.drop_down), class: "category"  %></td>
+  <td>
+  <%= f.text_field :criteria, placeholder: "Enter text here" %></td>
 
 
  <td><%= f.hidden_field :_destroy %>
-  <%= link_to "Remove", '#', class: "btn", id: "remove_fields" %></td>
+  <%= link_to "Remove", '#', class: "btn btn-info", id: 'remove_fields', name: "RemoveButton" %></label></td>
 
     </tr>
   </table>
