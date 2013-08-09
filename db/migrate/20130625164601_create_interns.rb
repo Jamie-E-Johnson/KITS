@@ -7,12 +7,13 @@ class CreateInterns < ActiveRecord::Migration
       t.string :home_city
       t.string :home_state
       t.string :local_city
+      t.string :local_state
       t.string :classification
       t.date :dob
       t.string :ethnicity
       t.string :major
-      t.string :minor
-      t.string :congress_district
+      t.string :home_congress_district
+      t.string :school_congress_district
 
       t.timestamps
     end
