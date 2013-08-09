@@ -9,6 +9,7 @@
       </ul>
     </div>
   <% end %>
+
   <div class="classcol1">
     <div class="field">
       <%= intern_form.label :first_name %>
@@ -30,18 +31,18 @@
       <%= intern_form.date_field :dob %>
     </div>
 
-
-    <div class="classcol2">
-      <div class="field">
-        <%= intern_form.label :school %>
-        <%= intern_form.text_field :school %>
-      </div>
-
+    <div class="field">
+      <%= intern_form.label :school %>
+      <%= intern_form.text_field :school %>
     </div>
+
     <div class="field">
       <%= intern_form.label :classification %>
       <%= intern_form.text_field :classification %>
     </div>
+  </div>
+
+  <div class="classcol2">
 
     <div class="field">
       <%= intern_form.label :major %>
@@ -52,13 +53,12 @@
       <%= intern_form.label :local_city %>
       <%= intern_form.text_field :local_city %>
     </div>
+  </div>
 
-
-    <div class="classcol3">
-      <div class="field">
-        <%= intern_form.label :local_state %>
-        <%= intern_form.text_field :local_state %>
-      </div>
+  <div class="classcol3">
+    <div class="field">
+      <%= intern_form.label :local_state %>
+      <%= intern_form.text_field :local_state %>
     </div>
     <div class="field">
       <%= intern_form.label :school_congressional_district %>
@@ -92,15 +92,12 @@
       <%= intern_form.label :comments %>
       <%= intern_form.text_area :comments %>
     </div>
+
+    <div class="butt2">
+      <tr>
+        <td><%= link_to 'Back', searches_path, name: "Back", class: "btn btn-info" %></td>
+        <td><%= intern_form.submit class: "btn btn-info" %></td>
+      </tr>
+    </div>
   </div>
-
-
-  <div class="butt2">
-    <tr>
-
-      <td><%= link_to 'Back', searches_path, name: "Back", class: "btn btn-info" %></td>
-      <td><%= intern_form.submit class: "btn btn-info" %></td>
-    </tr>
-  </div>
-
 <% end %>
