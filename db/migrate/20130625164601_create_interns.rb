@@ -8,7 +8,7 @@ class CreateInterns < ActiveRecord::Migration
       t.string :home_state
       t.string :local_city
       t.string :classification
-      t.integer :age
+      t.date :dob
       t.string :ethnicity
       t.string :major
       t.string :minor

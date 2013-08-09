@@ -19,7 +19,7 @@ ActiveRecord::Schema.define(version: 20130807155641) do
     t.string   "last_name"
     t.string   "local_city"
     t.string   "classification"
-    t.date     "dob",                      limit: 255
+    t.date     "dob"
     t.string   "ethnicity"
     t.string   "major"
     t.string   "school_congress_district"
