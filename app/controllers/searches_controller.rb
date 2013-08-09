@@ -8,25 +8,11 @@ class SearchesController <  ApplicationController
   def index
     @intern = Intern.new
 
-    #@interns = Intern.paginate(:page => params[:page], :per_page => 25)
-    #@search = Search.new
+
     @search = Search.first
     @searches = Search.all
     @interns = @search.custom_search.order(sort_column + " " + sort_direction).paginate(:page => params[:page], :per_page => 25)
-    # @interns = @search.custom_search().order(params[:sort_by]).paginate(:page => params[:page], :per_page => 25)
-
-
-
-
-    #maybe eventually add more saved seraches !?!?!?!?!?
     @search_attributes = Search.first.try(:search_attributes)
-
-
-    #check to see if there's a saved search Search.count > 0
-
-
-    #if there's a saved search, then create a method that filters the interns based off the Search Attributes
-
   end
 
   def show
@@ -39,15 +25,10 @@ class SearchesController <  ApplicationController
   end
 
 
-
-
-
-
-
   # POST /searches
   # POST /searches.json
   def create
-    #raise  StandardError
+
     Search.last.try(:destroy)
     @search = Search.new(params[:search].try(:permit!))
     #raise  StandardError
@@ -72,7 +53,7 @@ class SearchesController <  ApplicationController
     end
   end
   private
-    # Use callbacks to share common setup or constraints between actions.
+
     def set_search
       @search = Search.find(params[:id])
     end

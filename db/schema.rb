@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20130805163331) do
+ActiveRecord::Schema.define(version: 20130807155641) do
 
   create_table "interns", force: true do |t|
     t.string   "first_name"
@@ -30,6 +30,7 @@ ActiveRecord::Schema.define(version: 20130805163331) do
     t.string   "home_city"
     t.string   "home_state"
     t.string   "home_congress_district"
+    t.string   "comments"
   end
 
   create_table "internships", force: true do |t|

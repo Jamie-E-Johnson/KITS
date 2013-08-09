@@ -11,17 +11,15 @@
   margin-top: -30px;
   background-image: none;
   background-color: #005fd2;
-  #background-color: #3366cc;
 
 }
 
 body {
-  //background-color: #FFFF19;
 
-  //background-image: url("KITS_HEADER.jpg");
+
+
   background-image: url("space-earth-nasa-hd-wallpapers-52.jpg");
-  //background-image: url("SpaceArtWallpapers1024by768.jpg");
-  //background-image: url("Space_Earth_1600x807.jpg");
+
 
   color: #ffcc00;
   font-family: verdana, arial, helvetica, sans-serif;
@@ -223,6 +221,15 @@ tbody {
   }
 
 }
+.comments{
+
+  display: block;
+  width: 33%;
+
+}
+
+
+
 
 #backshow {
 
@@ -285,7 +292,7 @@ tbody {
 
 .classcol1 {
 
-  margin-bottom: 18px;
+  margin-bottom: 200px;
 
 }
 
@@ -296,5 +303,11 @@ tbody {
 
    margin-left: 195px;
 
+
+}
+
+.butt2{
+
+  margin-top: -185px;
 
 }

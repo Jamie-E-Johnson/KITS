@@ -11,7 +11,7 @@ class InternsController < ApplicationController
     @interns = Intern.paginate(:page => params[:page], :per_page => 25)
 
     @search = Search.new
-    #@interns = Intern.search(params[:search]).order(sort_column + " " + sort_direction).paginate(:per_page => 25, :page => params[:page])
+
 
     respond_to do |format|
       format.html
@@ -71,7 +71,6 @@ class InternsController < ApplicationController
   def update
     @intern = Intern.find(params[:id])
 
-
     if @intern.update_attributes(intern_params)
       redirect_to @intern, notice: 'Post was successfully updated.'
     else
@@ -96,12 +95,10 @@ class InternsController < ApplicationController
 
   def search
 
-    #@interns = Intern.where("#{params["Select Categories"].parameterize.underscore} like ?", "%#{params[:query]},%").paginate(:joins => params[:intern],:page => params[:page], :per_page => 25)
 
-    @interns = Intern.filtered_results(params[:search])
     @search = Search.new if @search.nil?
 
-    #@interns = Intern.where("#{params['Select Categories'].parameterize.underscore} like ?", "%#{params[:query]}%").paginate(:page => params[:page], :per_page => 25, :joins => 'search')
+
     render :index
   end
 
@@ -120,6 +117,6 @@ end
   private
 
   def intern_params
-    params.require(:intern).permit(:first_name, :middle_initial, :last_name, :school, :home_city, :home_state, :local_city,:local_state, :classification, :dob, :ethnicity, :major, :minor, :home_congress_district, :school_congress_district)
+    params.require(:intern).permit(:first_name, :middle_initial, :last_name, :school, :home_city, :home_state, :local_city,:local_state, :classification, :dob, :ethnicity, :major, :minor, :home_congress_district, :school_congress_district, :comments)
   end
 end
