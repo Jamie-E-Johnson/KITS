@@ -11,7 +11,10 @@ class SearchesController <  ApplicationController
 
     @search = Search.first
     @searches = Search.all
-    @interns = @search.custom_search.order(sort_column + " " + sort_direction).paginate(:page => params[:page], :per_page => 25)
+    @interns = @search.custom_search.order(sort_column + " " + sort_direction)
+    if params[:page]
+      @interns = @interns.paginate(:page => params[:page], :per_page => 25)
+    end
     @search_attributes = Search.first.try(:search_attributes)
   end
 
